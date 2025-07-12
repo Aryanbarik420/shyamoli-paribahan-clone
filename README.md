@@ -16,6 +16,6 @@ It recreates the look and feel of the original website with clean code and a wel
 ## 🚀 How to run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/shyamoli-paribahan-clone.git
+   git clone https://github.com/Aryanbarik420/shyamoli-paribahan-clone.git
 ⭐ Acknowledgements
 This project is a personal learning exercise and a UI/UX clone of Shyamoli Paribahan.
