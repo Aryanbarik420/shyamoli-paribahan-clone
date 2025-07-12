@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shyamoli</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+  <style>
+    footer {
+      background-color: #f7eddc;
+    }
+
+    .blink {
+      animation: blink-anmation 2s infinite;
+    }
+
+    @keyframes blink-anmation {
+      0%, 100% {
+        color: inherit;
+      }
+
+      50% {
+        color: rgb(211, 211, 200);
+      }
+    }
+
+    .submit-btn {
+      background-color: orange;
+      color: white;
+      font-weight: bold;
+      padding: 10px 30px;
+      border: none;
+    }
+
+    .link-slide{
+  text-decoration: none;
+  color: #000;
+}
+  </style>
+</head>
+<body>
+  <div class="position-fixed bottom-0 end-0">
+    <button class="bi bi-whatsapp m-4 btn btn-success "></button>
+  </div>
+
+  <div class="py-2 px-3 justify-content-between d-flex align-items-center" style="background-color: rgb(246, 213, 171);">
+    <div class="d-flex align-items-center gap-3 py-2">
+      <a href="mailto:info@shyamolibus.com" class="text-decoration-none text-black">
+        <i class="bi bi-envelope"></i>"info@shyamolibus.com"
+      </a>
+
+      <!-- <div class="dropdown">...</div> -->
+
+      <div>
+        <span class="bi bi-facebook me-2"></span>
+        <span class="bi bi-instagram"></span>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center gap-3">
+      <!-- Icons commented out -->
+      <button class="btn btn-outline-dark btn-sm border-0">Agent Login</button>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <span class="navbar-brand">
+        <a><img src="./images/shyamoli.png" width="200px"></a>
+      </span>
+
+      <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link btn btn-link fw-bold" href="./shyamoli.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-link fw-bold blink" href="./shyamoli_bus_hire.html">Bus Hire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-link fw-bold" href="./shyamoli_manage_booking.html">Manage bookings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-link fw-bold" href="./shyamoli_offers.html">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-link fw-bold" href="./shyamoli_blogs.html">Blogs</a>
+          </li>
+          
+            <li class="nav-item dropdown me-5">
+              <button class="nav-link btn-link fw-bold dropdown-toggle" data-bs-toggle="dropdown">
+                 More
+              </button>
+              <ul class="dropdown-menu" >
+                <li><a class="dropdown-item" href="./shyamoli_career.html">Carees</a></li>
+                <li><a class="dropdown-item blink" href="./shyamoli_downloadapp.html">Download App</a></li>
+              </ul>
+            </li>
+
+        </ul>
+
+    </div>
+    </div>
+  </nav>
+
+  <!-- Banner Section -->
+  <div class="position-relative w-100" style="height: 200px;">
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(rgba(147, 75, 4, 0.704), rgba(147, 75, 4, 0.704)), url('../images/shyamolibusbanner.jpg') center/cover no-repeat;"></div>
+    <div class="position-absolute top-50 start-50 translate-middle fs-2 fw-bold text-light">
+      <span style="font-family: Anurati;">O F F E R S</span>
+    </div>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="m-4 d-flex flex-wrap">
+    <div class="card m-2 p-2" style="width: 280px;">
+      <img src="./images/flat_10.png" class="card-img-top" height="220">
+      <div class="card-body">
+        <p>No Coupon Code Required Get <span class="fw-bold">10.0% off</span> on your booking</p>
+      </div>
+    </div>
+
+    <div class="card m-2 p-2" style="width: 280px;">
+      <img src="./images/150_off.png" class="card-img-top" height="220">
+      <div class="card-body">
+        <p>
+          Coupon Code: <span class="fw-bold">BPB100</span>
+          Book 6 seats and get <span class="fw-bold">'₹150.0'</span> discount Minimum total fare should be <span class="fw-bold">₹700.0.</span>
+          This offer is valid for Travel Period: <span class="fw-bold">02/04/2025</span> To <span class="fw-bold">31/05/2025</span>. Limited offer
+        </p>
+      </div>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal" class="text-decoration-none" style="color: #f1ac35;">Terms and Conditions</a>
+
+      <div class="modal fade" id="termsModal" >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="termsModalLabel">Terms and Conditions</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>  
+            </div>
+            <div class="modal-body">
+              <p><span class="bi bi-chevron-double-right"><span class="fw-bold">Coupon Code</span><span class="fw-bold text-danger">BPB100</span></p>
+              <p><span class="bi bi-chevron-double-right"><span class="fw-bold">The Offer is valid from </span><span class="fw-bold text-danger">02/04/2025</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card m-2 p-2" style="width: 280px;">
+      <img src="./images/10_off.png" class="card-img-top" height="220">
+      <div class="card-body">
+        <p>
+          Coupon Code:<span class="fw-bold"> HYDERN100</span>
+          Book <span class="fw-bold">7</span> seats and get <span class="fw-bold">'10%' </span>discount (UPTO ₹100.0) Minimum total fare should be <span class="fw-bold">₹600.0.</span>
+          This offer is valid for Travel Period: <span class="fw-bold">10/04/2025</span> To <span class="fw-bold">30/04/2025.</span> Limitedoffer
+        </p>
+      </div>
+
+      <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal2" class="text-decoration-none" style="color: #f1ac35;">Terms and Conditions</a>
+
+      <div class="modal fade" id="termsModal2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Terms and Conditions</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p><span class="bi bi-chevron-double-right"><span class="fw-bold">Coupon Code</span><span class="fw-bold text-danger">HYDERN100</span></p>
+              <p><span class="bi bi-chevron-double-right"><span class="fw-bold">The Offer is valid from </span><span class="fw-bold text-danger">10/04/2025</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card m-2 p-2" style="width: 280px;">
+      <img src="./images/10_off.png" class="card-img-top" height="220">
+      <div class="card-body">
+        <p>
+          Coupon Code: <span class="fw-bold">HYDERN10</span>
+          Book round trip and get <span class="fw-bold">'10%'</span> discount (UPTO ₹100.0) for minimum <span class="fw-bold">7</span>> seats Minimum total fare should be <span class="fw-bold">₹700.0.</span>
+          This offer is valid for Travel Period: <span class="fw-bold">10/04/2025</span> To <span class="fw-bold">30/04/2025</span>. Limited offer
+        </p>
+      </div>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal3" class="text-decoration-none" style="color: #f1ac35;">Terms and Conditions</a>
+
+      <div class="modal fade" id="termsModal3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Terms and Conditions</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p><span class="bi bi-chevron-double-right"><span class="fw-bold">Coupon Code</span><span class="fw-bold text-danger">HYDERN10</span></p>
+              <p><span class="bi bi-chevron-double-right"><span class="fw-bold">The Offer is valid from </span><span class="fw-bold text-danger">10/04/2025</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="p-4">
+    <div class="container">
+      <div class="row text-start">
+        <!-- Contact Section -->
+        <div class="col-md-4 mb-4">                         <!--drid-4--> 
+          <h5 class="fw-bold">CONTACT</h5>
+          <hr class="w-25 mb-2" />
+          <p class="mb-1 fw-bold">SHYAMOLI PARIBAHAN PRIVATE LIMITED</p>
+          <p class="mb-1">23 MARQUIS STREET, Kolkata, West Bengal - 700016</p>
+          <a  href="mailto:info@shyamolibus.com" class="mb-0 text-decoration-none text-black" ><span class="bi bi-envelope-fill me-2"></span>info@shyamolibus.com</a> 
+        </div>
+  
+        <!-- Quick Links Section -->
+        <div class="col-md-5 mb-4">                      <!--drid-5-->
+          <h5 class="fw-bold">QUICK LINKS</h5>
+          <hr class="w-25 mb-2" />
+          <div class="row">
+            <div class="col-6">
+              <a href="about.html" class="btn btn-link p-0 d-block text-start link-slide">» About Us</a>
+              <a href="feedback.html" class="btn btn-link p-0 d-block text-start link-slide">» Feedback</a>
+              <a href="terms.html" class="btn btn-link p-0 d-block text-start link-slide">» Terms & Conditions</a>
+              <a href="agent-login.html" class="btn btn-link p-0 d-block text-start link-slide">» Agent Login</a>
+              <a href="confirm-booking.html" class="btn btn-link p-0 d-block text-start link-slide">» Confirm Phone Booking</a>            
+            </div>
+            <div class="col-6">
+              <a href="contact.html" class="btn btn-link p-0 d-block text-start link-slide">» Contact</a>
+              <a href="schedules.html" class="btn btn-link p-0 d-block text-start link-slide">» Schedules</a>
+              <a href="refund-status.html" class="btn btn-link p-0 d-block text-start link-slide">» Refund Status</a>
+              <a href="agent-registration.html" class="btn btn-link p-0 d-block text-start link-slide">» Agent Registration</a>
+              <a href="faqs.html" class="btn btn-link p-0 d-block text-start link-slide">» FAQs</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Social Section -->
+        <div class="col-md-3 mb-4">                       <!--drid-3--> <!--4+5+3=12-->
+          <h5 class="fw-bold">FOLLOW US</h5>
+          <hr class="w-25 mb-2" />
+          <div class="d-flex gap-2">
+            <a href="https://www.facebook.com/shyamoliparibahanpvtltd/" target="_blank" class="btn  rounded-circle">
+              <i class="bi bi-facebook fs-4 "></i>
+            </a>
+            
+            <a href="https://x.com/SHYAMOLIBUS" target="_blank" class="btn rounded-circle"><i class="bi bi-twitter fs-4"></i></a>
+
+            <a href="https://www.youtube.com/channel/UC6GzEE5zHIUe8JEn-qFxr_Q" target="_blank" class="btn rounded-circle"><i class="bi bi-youtube fs-4"></i></a>
+            
+            <a href="https://www.linkedin.com/company/shyamolibus/" target="_blank" class="btn rounded-circle"><i class="bi bi-linkedin fs-4"></i></a>
+
+            <a href="https://www.instagram.com/shyamoliparibahanpvtltd/" target="_blank" class="btn rounded-circle">
+              <i class="bi bi-instagram fs-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Footer Bottom -->
+    <div class=" text-center text-black fw-medium p-4 mt-3" style="background-color: rgb(246, 213, 171);">
+      © 2025 All rights reserved. <a href="https://www.shyamolibus.com/index.html" target="_blank" class="text-decoration-none text-black">SHYAMOLI PARIVAHAN PRIVATE LIMITED</a> 
+    </div>
+  </footer>
+</body>
+</html>
